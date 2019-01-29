@@ -1,0 +1,14 @@
+{
+    "office_ids": [
+        "51a6755f6fc6269990000001"
+    ],
+    "offset": 0,
+    "size": 4,
+    "must": [
+        {
+            "technology_skill": {
+                "tag": "Java"
+            }
+        }
+    ]
+}
