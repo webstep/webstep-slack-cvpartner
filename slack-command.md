@@ -1,6 +1,6 @@
 # Command query syntax 
 
-/cv with <skill> location <city or region> for <customer>  sector <industry sector> last <n years>
+/cv with \<skill\> location \<city or region\> for \<customer\>  sector \<industry sector\> last \<n years\>
 
 In this example the 'with' clause is mandatory, all other clauses are optional.
 
