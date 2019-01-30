@@ -17,7 +17,7 @@ To create a command that can search CVPartner we have to learn their search API 
 This is somewhat straightforward using a browser developer toolkit. Let's work on fetching results for consultants with the skill to program in Java.
 
 **Requirements**
-1. A [CVPartner account](cvpartner.com)
+1. A [CVPartner account](https://www.cvpartner.com)
 2. Install [Postman](https://www.getpostman.com/)
 
 **Steps**
