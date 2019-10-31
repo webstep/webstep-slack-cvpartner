@@ -14,12 +14,16 @@ All clauses are optional, but at least one must be specified.  Location is used 
 
 ## command metadata 
 
-/cv catalog \<skill\>|\<location\>|\<customer\>|\<sector\>
+/cv catalog skill|location|customer|sector \<filter\>
 
-Lists available items in each metadata category 
+Lists available items in each metadata category, optionally filter results 
 
 ## metadata examples 
 
 /cv catalog location 
 
 returns a list of all available locations, such as Norge, Sverige, Oslo, Bergen, Trondheim etc.  Default is Norge 
+
+/cv catalog customer Hydro
+
+returns a list of all available customers containing the string Hydro in the customer name.
