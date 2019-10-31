@@ -1,17 +1,16 @@
 # Command query syntax 
 
-/cv with \<skill\> location \<city or region\> for \<customer\>  sector \<industry sector\> last \<n years\>
+/cv skill \<skill\> experience \<skill\> location \<city or region\> for \<customer\>  sector \<industry sector\> last \<n years\>
 
-In this example the 'with' clause is mandatory, all other clauses are optional.
+All clauses are optional, but at least one must be specified.  Location is used as a filter, and must be specified in conjuction with another clause. 
 
 ## Examples 
 
-/cv with aws location Bergen for Ambita sector offentlig last 1 
+/cv skill aws location Bergen for Ambita sector offentlig last 1 
 
-/cv with neo4j  
+/cv skill neo4j  
 
-/cv with "Data Warehouse" sector telecom 
-
+/cv skill "Data Warehouse" sector Telecom 
 
 ## command metadata 
 
