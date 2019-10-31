@@ -11,7 +11,7 @@ All clauses are optional, but at least one must be specified.
 * sector _Industry sector of customer_
 * years _number of years with skill experience_
 
-skill and experience cannot be combined. Choose one.
+skill and experience cannot be combined. Choose one, experience is a subset of skill. 
 
 location cannot be specified on its own, it acts as a filter 
 
