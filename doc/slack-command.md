@@ -1,14 +1,24 @@
 # Command query syntax 
 
-/cv skill \<skill\> experience \<skill\> location \<city or region\> for \<customer\>  sector \<industry sector\> last \<n years\>
+/cv skill \<skill\> experience \<skill\> location \<city or region\> for \<customer\>  sector \<industry sector\> years \<n years\>
 
-All clauses are optional, but at least one must be specified.  Location is used as a filter, and must be specified in conjuction with another clause. 
+All clauses are optional, but at least one must be specified.  
+
+* skill - _technology, practice, system, knowledge_
+* experience _skill learned in project deployment_
+* location _office affiliation of consultant_
+* customer _customer where skill was aquired_ 
+* sector _Industry sector of customer_
+* years _number of years with skill experience_
+
+location cannot be specified on its own, it acts as a filter 
+years cannot be specified on its own, it acts as a filter 
 
 ## Examples 
 
-/cv skill aws location Bergen for Ambita sector offentlig last 1 
+/cv skill aws location Bergen for Ambita sector offentlig experience 5 
 
-/cv skill neo4j  
+/cv experience neo4j  
 
 /cv skill "Data Warehouse" sector Telecom 
 
